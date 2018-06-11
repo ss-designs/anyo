@@ -1,0 +1,302 @@
+/* BODY CSS */
+body {
+  background: #fff;
+  font-family: TimesNewRoman;
+  text-transform: uppercase;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+#aLogoFront {
+  width: 47%;
+  margin: 0px 24%;
+  animation-duration: 3s;
+}
+
+/* Subtitle CSS */
+.subtitle {
+  width: 328px;
+}
+
+.subtitle p {
+  letter-spacing: 8px;
+  font-size: 22px;
+  margin: 336px 548px;
+  display: inline-block;
+  font-family: TimesNewRoman;
+  font-weight: 900;
+  margin-bottom: 0;
+  color: #000;
+  width: 100%;
+}
+
+.subtitle hr {
+  margin: auto 487px;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  z-index: -5;
+  padding: 2px;
+  border: solid #0a0a0a;
+  border-radius: 22px;
+}
+
+.hiddenSection {
+  display: none;
+  position: absolute;
+}
+
+/* Options CSS */
+
+.options {
+  margin-bottom: 75px;
+  width: 1229px;
+}
+
+.options ul {
+  list-style-type: none;
+  margin-left: 186px;
+  margin-top: 4%;
+  font-size: 20px;
+  width: 83%;
+}
+
+.options ul li {
+  display: inline-block;
+  float: left;
+  padding-right: 78px;
+  margin: auto;
+  color: #000;
+}
+
+.options ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.options ul li a:hover {
+  opacity: 0.7;
+}
+
+
+/* social media CSS */
+
+.socialM {
+  width: 239px;
+}
+
+.socialM ul {
+  float: left;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  margin: 45px 532px;
+}
+
+.socialM ul li .faceb {
+  padding: 0px;
+  margin: 0px;
+  width: 2px;
+  display: inline-block;
+  float: left;
+}
+
+.socialM ul li .instam {
+  width: 0px;
+  float: left;
+  display: inline-block;
+  padding-left: 100px;
+  margin-top: 2px;
+}
+
+.socialM ul li .pints {
+  width: 0;
+  float: left;
+  display: inline-block;
+  padding-left: 100px;
+  margin-top: 2px;
+}
+}
+
+.footerSocial i {
+  float: left;
+  text-decoration: none;
+}
+
+.fa-facebook-square:before {
+  content: "\f082";
+  color: black;
+}
+
+.footerSocial img {
+  float: left;
+  margin-left: 25px;
+  margin-top: 2px;
+}
+
+.borderIcon {
+  background: black;
+  padding: 10px;
+  border-radius: 14px;
+  float: left;
+}
+
+@media only screen and (max-width: 1024px) {
+
+#aLogoFront {
+  width: 55%;
+  margin: 0px 35%;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+html {
+  overflow: hidden;
+}
+
+#aLogoFront {
+  margin: 25px 23%;
+}
+
+#desktopView{
+  display: none;
+}
+
+#tabletView {
+  display: contents;
+  font-weight: 900;  
+  font-size: 20px;
+  margin: 11% 31%;
+  line-height: 50px;
+  width: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  list-style: none;
+}
+
+#tabletView ul {
+  margin: 1% -2%;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+}
+
+#tabletView li a{
+  color: black;
+}
+
+.socialM ul {
+  margin: 45px 115%;
+}
+
+}
+
+@media only screen and (max-width: 680px) {
+html {
+  max-width: 677px;
+  overflow: hidden;
+}
+
+#aLogoFront {
+  width: 40%;
+  margin: auto 29.5%;
+}
+
+.hiddenOptions {
+  display: none;
+  position: absolute;
+}
+
+#tabletView {
+  display: none;
+  position: absolute;
+}
+
+#phoneView {
+  display: contents;
+}
+
+#phoneView ul {
+  list-style: none;
+  margin: 5% 13%;
+  width: 100%;
+}
+
+#phoneView ul li{
+  display: inline-block;
+  float: left;
+  margin-right: 5%;
+}
+
+#phoneView li a {
+  color: black;
+}
+
+
+.options ul{
+  list-style-type: none;
+  margin-left: 208px;
+  margin-top: 113px;
+  font-size: 26px;
+  width: 100%;
+}
+
+.socialM ul {
+  margin: 25px 89%;
+}
+
+}
+
+@media only screen and (max-width: 420px) {
+
+#aLogoFront {
+  width: 100%;
+  margin: auto 1%;
+} 
+
+.socialM ul {
+  margin: 20px 29%;
+}
+
+.options ul{
+  list-style-type: none;
+  margin-left: 208px;
+  margin-top: 113px;
+  font-size: 26px;
+  width: 100%;
+}
+.options ul li {
+  display: inline;
+  float: left;
+  padding-right: 17px;
+  margin: auto;
+}
+
+#tabletView {
+  display: none;
+  position: absolute;
+}
+
+#phoneView {
+  font-weight: 900;
+  font-size: 20px;
+  margin: 11% 31%;
+  line-height: 50px;
+  width: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  list-style: none;
+  clear: both;
+}
+
+#phoneView ul {
+  list-style: none;
+  margin: 5% -2%;
+  width: 100%;
+  display: inline-grid;
+  text-align: center;
+}
+}
